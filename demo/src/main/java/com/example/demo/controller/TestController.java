@@ -9,7 +9,7 @@ import com.example.demo.model.Person;
 public class TestController {
     @RequestMapping(value="hello")
 	public String hello() {
-    	//这是测试的
+    	//这是测试的wan
 		return "hello,this is springboot";
 	}
     @RequestMapping(value="/getperson")
